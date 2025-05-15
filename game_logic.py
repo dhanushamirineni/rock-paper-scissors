@@ -49,7 +49,7 @@ if __name__ == "__main__":
         
         if continue_playing() != "y":
             # Final message
-            if wins > losses: print("\nHumans dominate every time!\n")
-            elif wins < losses: print("\nRobot dominance!\n")
+            if wins > losses: print("\nHumans dominate every time! :)\n")
+            elif wins < losses: print("\nRobot dominance! :(\n")
             else: print("\nIt's a Draw!\n")
             break
